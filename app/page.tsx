@@ -819,7 +819,7 @@ export default function Home() {
                 ),
                 label: "LinkedIn",
                 value: "Ahmed Ali",
-                href: "#",
+                href: "https://www.linkedin.com/in/ahmed-ali-a3a495342/",
                 color: "blue",
               },
               {
@@ -834,7 +834,7 @@ export default function Home() {
                 ),
                 label: "GitHub",
                 value: "Ahmed Ali",
-                href: "#",
+                href: "https://github.com/A7med3li011",
                 color: "purple",
               },
             ].map(({ icon, label, value, href, color }) => (
