@@ -65,7 +65,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/assets/Ahmed_Ali - CV.pdf"
+            href="/assets/Ahmed_Ali_FullStack_Engineer_CV.pdf"
             download
             className="px-4 py-2 rounded-lg text-sm font-medium border border-blue-500/50 text-blue-400 hover:bg-blue-500/10 transition-all duration-300 hover:border-blue-400"
           >
@@ -111,7 +111,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/assets/Ahmed_Ali - CV.pdf"
+            href="/assets/Ahmed_Ali_FullStack_Engineer_CV.pdf"
             download
             className="px-4 py-2 rounded-lg text-sm font-medium border border-blue-500/50 text-blue-400 hover:bg-blue-500/10 transition-all duration-300 text-center mt-2"
           >

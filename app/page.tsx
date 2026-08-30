@@ -59,6 +59,42 @@ const projects = [
     ],
   },
   {
+    name: "Prosas Platform",
+    description:
+      "A multi-tenant SaaS ERP for facility management and preventive & corrective maintenance — asset and equipment tracking, work requests and orders, spare parts, and a helpdesk, with per-company subdomains and a bilingual Arabic-first interface.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "React Query",
+      "Zustand",
+      "next-intl",
+      "Tailwind CSS",
+    ],
+    demo: "https://staging.prosas-erp.com/en",
+    highlight: true,
+    images: [
+      "/assets/prosas/prosas_11.png",
+      "/assets/prosas/prosas_1.png",
+      "/assets/prosas/prosas_2.png",
+      "/assets/prosas/prosas_3.png",
+      "/assets/prosas/prosas_4.png",
+      "/assets/prosas/prosas_5.png",
+      "/assets/prosas/prosas_6.png",
+      "/assets/prosas/prosas_7.png",
+      "/assets/prosas/prosas_8.png",
+      "/assets/prosas/prosas_9.png",
+    ],
+  },
+  {
+    name: "SQL Database engine",
+    description:
+      "A relational database engine written from scratch — no SQLite, no PostgreSQL, no parser library. A hand-written tokenizer, parser and AST feed an executor with three layers of validation, then a storage engine that writes rows straight to disk: indexed lookups instead of full scans, tombstone deletes, copy-on-write updates, and per-table write locks.",
+    tech: ["TypeScript", "NestJS", "Node.js"],
+    demo: "https://github.com/A7med3li011/db-engine",
+    highlight: true,
+    images: ["/assets/dbbb.jpg"],
+  },
+  {
     name: "Dars Platform",
     description:
       "An e-learning and educational content platform enabling students and instructors to connect, share knowledge, and manage courses.",
@@ -76,6 +112,7 @@ const projects = [
       "/assets/dars/dars29.png",
     ],
   },
+
   {
     name: "Request",
     description:
@@ -212,6 +249,7 @@ const skillGroups = [
     skills: [
       "Node.js",
       "Express.js",
+      "Nest.js",
       "MongoDB",
       "Mongoose",
       "RESTful API",
