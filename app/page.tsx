@@ -99,7 +99,7 @@ const projects = [
     description:
       "An e-learning and educational content platform enabling students and instructors to connect, share knowledge, and manage courses.",
     tech: ["Next.js", "NextIntl", "shadcn"],
-    demo: "https://dev.dars-biu.com/ar/auth/login",
+    demo: "https://www.dars-biu.com/ar/auth/login",
     highlight: true,
     images: [
       "/assets/dars/dars2.png",
