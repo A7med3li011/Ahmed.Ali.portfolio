@@ -64,13 +64,14 @@ const projects = [
       "A multi-tenant SaaS ERP for facility management and preventive & corrective maintenance — asset and equipment tracking, work requests and orders, spare parts, and a helpdesk, with per-company subdomains and a bilingual Arabic-first interface.",
     tech: [
       "Next.js",
+      "Node.js",
       "TypeScript",
       "React Query",
       "Zustand",
       "next-intl",
       "Tailwind CSS",
     ],
-    demo: "https://staging.prosas-erp.com/en",
+    demo: "https://prosas-erp.com/en",
     highlight: true,
     images: [
       "/assets/prosas/prosas_11.png",
