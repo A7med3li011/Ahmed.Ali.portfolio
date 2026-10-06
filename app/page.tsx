@@ -114,16 +114,6 @@ const projects = [
     ],
   },
   {
-    name: "Qurrat Ayni",
-    description:
-      "A Saudi national platform connecting donors with mosques in need — recurring and one-time contributions, gifted donations, maintenance tenders and projects, mosque listings, and prayer-time follow-up, with an Arabic-first interface and a companion mobile app.",
-    tech: ["Next.js", "NextIntl", "Tailwind CSS"],
-    demo: "https://qoura-ayni.mdarj.org/",
-    highlight: true,
-    images: ["/assets/qurah/q1.png", "/assets/qurah/q2.png"],
-  },
-
-  {
     name: "Mathil Platform",
     description:
       "Developed a full-stack legal services website for a Saudi-based law firm, providing a professional digital presence and showcasing legal services in a modern, user-friendly interface.",
@@ -147,6 +137,31 @@ const projects = [
     ],
     demo: "https://mathil.sa/",
   },
+  {
+    name: "Qurrat Ayni",
+    description:
+      "A Saudi national platform connecting donors with mosques in need — recurring and one-time contributions, gifted donations, maintenance tenders and projects, mosque listings, and prayer-time follow-up, with an Arabic-first interface and a companion mobile app.",
+    tech: ["Next.js", "NextIntl", "Tailwind CSS"],
+    demo: "https://qoura-ayni.mdarj.org/",
+    highlight: true,
+    images: ["/assets/qurah/q1.png", "/assets/qurah/q2.png"],
+  },
+  {
+    name: "Horichem",
+    description:
+      "Corporate website for a UAE-based specialty chemicals supplier serving the GCC and Africa — a product catalog filterable by industry (wastewater treatment, paper & tissue, oil & gas, agriculture, and more), detailed product pages, a blog with search and tag filtering, and an inquiry contact flow.",
+    tech: ["Next.js", "Tailwind CSS"],
+    demo: "https://horichem.com/",
+    highlight: false,
+    images: [
+      "/assets/horichem/hori1.png",
+      "/assets/horichem/hori2.png",
+      "/assets/horichem/hori3.png",
+      "/assets/horichem/hori4.png",
+      "/assets/horichem/hori5.png",
+    ],
+  },
+
   {
     name: "Tansieq",
     description:
@@ -459,7 +474,7 @@ export default function Home() {
                 style={{ animationDelay: "1s" }}
               >
                 <p className="text-xs text-gray-500">Projects</p>
-                <p className="text-sm font-bold text-white">9+ Built</p>
+                <p className="text-sm font-bold text-white">10+ Built</p>
               </div>
             </div>
           </div>
@@ -502,7 +517,7 @@ export default function Home() {
             {/* Stats cards */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: "9+", label: "Projects Shipped" },
+                { value: "10+", label: "Projects Shipped" },
                 { value: "2", label: "Companies" },
                 { value: "MERN", label: "Core Stack" },
                 { value: "2025", label: "Graduating" },
