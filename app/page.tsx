@@ -113,31 +113,23 @@ const projects = [
       "/assets/dars/dars29.png",
     ],
   },
-
   {
-    name: "Request",
+    name: "Qurrat Ayni",
     description:
-      "A service request management system for handling and tracking operational requests with real-time status updates.",
-    tech: ["React.js", "Node.js", "MongoDB"],
-    demo: "https://request-sa.com/",
+      "A Saudi national platform connecting donors with mosques in need — recurring and one-time contributions, gifted donations, maintenance tenders and projects, mosque listings, and prayer-time follow-up, with an Arabic-first interface and a companion mobile app.",
+    tech: ["Next.js", "NextIntl", "Tailwind CSS"],
+    demo: "https://qoura-ayni.mdarj.org/",
     highlight: true,
-    images: [
-      "/assets/request/request1.png",
-      "/assets/request/request2.png",
-      "/assets/request/request3.png",
-      "/assets/request/request4.png",
-      "/assets/request/request5.png",
-      "/assets/request/request7.png",
-      "/assets/request/request9.png",
-    ],
+    images: ["/assets/qurah/q1.png", "/assets/qurah/q2.png"],
   },
+
   {
     name: "Mathil Platform",
     description:
       "Developed a full-stack legal services website for a Saudi-based law firm, providing a professional digital presence and showcasing legal services in a modern, user-friendly interface.",
     tech: ["React.js", "Tailwind CSS", "Node.js", "MongoDB", "Express.js"],
 
-    highlight: false,
+    highlight: true,
     images: [
       "/assets/mathil/mathil6.png",
       "/assets/mathil/mathil1.png",
@@ -210,6 +202,23 @@ const projects = [
       "/assets/tayba/tayba1.png",
       "/assets/tayba/tayba2.png",
       "/assets/tayba/tayba3.png",
+    ],
+  },
+  {
+    name: "Request",
+    description:
+      "A service request management system for handling and tracking operational requests with real-time status updates.",
+    tech: ["React.js", "Node.js", "MongoDB"],
+    demo: "https://request-sa.com/",
+
+    images: [
+      "/assets/request/request1.png",
+      "/assets/request/request2.png",
+      "/assets/request/request3.png",
+      "/assets/request/request4.png",
+      "/assets/request/request5.png",
+      "/assets/request/request7.png",
+      "/assets/request/request9.png",
     ],
   },
   {
