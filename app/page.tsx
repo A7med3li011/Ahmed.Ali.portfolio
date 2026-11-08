@@ -8,7 +8,7 @@ const experience = [
     company: "MDARJ",
     role: "Full Stack Developer",
     period: "Feb 2025 – Present",
-    location: "Cairo, Egypt",
+    location: "Alexandria, Egypt",
     type: "Full-time",
     points: [
       "Developing full-stack web applications using MongoDB, Express.js, React.js, and Node.js",
