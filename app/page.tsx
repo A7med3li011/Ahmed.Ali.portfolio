@@ -8,7 +8,7 @@ const experience = [
     company: "MDARJ",
     role: "Full Stack Developer",
     period: "Feb 2025 – Present",
-    location: "Alexandria, Egypt",
+    location: "Cairo, Egypt",
     type: "Full-time",
     points: [
       "Developing full-stack web applications using MongoDB, Express.js, React.js, and Node.js",
@@ -456,7 +456,7 @@ export default function Home() {
                 <div className="w-full h-full rounded-full overflow-hidden bg-[#0f172a]">
                   <Image
                     src="/assets/Ahmed.jpg"
-                    alt="Ahmed Ali – Full Stack Developer from Alexandria, Egypt"
+                    alt="Ahmed Ali – Full Stack Developer from Cairo, Egypt"
                     width={320}
                     height={320}
                     className="w-full h-full object-cover"
